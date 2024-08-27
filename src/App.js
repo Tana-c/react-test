@@ -5,12 +5,6 @@ import Button from './Button';
 
 function App() {
   const [count, setCount] = useState(0);
-  const incrementCount = () => {
-    setCount(count + 1);
-  };
-  const decrementCount = () => {
-    setCount(count - 1);
-  };
   const name = "TANA";
 
   const employees = [
@@ -26,8 +20,8 @@ function App() {
 
       <div className="button-container">
         <h2>Count: {count}</h2>
-        <button onClick={incrementCount} className="large-button">+1</button>
-        <button onClick={decrementCount} className="large-button">-1</button>
+        <button onClick={count} className="large-button">+1</button>
+        <button onClick={setCount} className="large-button">-1</button>
       </div>
 
       <div className="App">
