@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.test{
+  color: aqua;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+
+.large-button {
+  font-size: 20px; /* เพิ่มขนาดของปุ่ม */
+  padding: 10px 20px; /* เพิ่มพื้นที่ภายในปุ่ม */
+  margin: 10px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+}
+
+.button-container h2 {
+  margin-bottom: 20px;
+}
